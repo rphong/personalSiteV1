@@ -1,0 +1,95 @@
+/*
+Block styles
+*/
+
+#container{
+    box-sizing: border-box;
+    margin: 0 0 0 0;
+    padding: 2rem 0 0 2rem;
+    width: 100%;
+    float:left;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+/* 
+Header Styles
+*/
+
+h1{
+    font-family: 'Andada Pro';
+    font-size: 2rem;
+    padding: 0.5rem 0 0.5rem 0;
+}
+
+h2{
+    font-family: 'Andada Pro';
+    font-size: 1rem;
+}
+
+/*
+Header
+*/
+
+#header{
+    width: 100%;
+    padding: 0rem 0 1rem 0;
+    background-color:rgb(184, 255, 220);
+    overflow: auto;
+}
+
+#name{
+    margin: 2rem 0 0 2rem;
+    float: left;
+    color:black;
+    font-size: 2rem;
+}
+
+#name h1{
+    font-size: 2rem;
+}
+
+.menu{
+    margin: 2rem 2rem 0 0;
+    padding: 10px;
+    float: right;
+}
+
+.menu a{
+    padding:10px;
+    font-family: 'Andada Pro';
+    font-weight: 600;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color:black;
+    border-radius: .5rem;
+}
+
+.menu a:current{
+    color:orange;
+}
+
+.menu a:hover{
+    background-color: rgb(176, 230, 203);
+}
+
+/*
+Footer
+*/
+
+#footer{
+    position:fixed;
+    width:100%;
+    margin: 2rem 0 2rem 2rem;
+    bottom: 0;
+}
+
+.contact_Links img{
+    width: 2rem;
+    height: 2rem;
+    margin: 0 .5rem;
+}
