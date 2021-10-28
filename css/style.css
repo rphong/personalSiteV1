@@ -1,3 +1,8 @@
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
 /*
 Block styles
 */
@@ -7,14 +12,20 @@ Block styles
     margin: 0 0 0 0;
     padding: 2rem 0 0 2rem;
     width: 100%;
-    float:left;
 }
 
 a{
     text-decoration: none;
 }
 
+.test{
+    height: 40rem;
+}
 
+.gif{
+    width: 60%;
+    padding: 1rem 0;
+}
 
 /* 
 Header Styles
@@ -78,13 +89,23 @@ Header
 }
 
 /*
+Container, main content
+*/
+
+#container h2{
+    padding: .5rem 0;
+}
+
+#container h2 a{
+    text-decoration: underline;
+}
+
+/*
 Footer
 */
 
 #footer{
-    position:fixed;
-    width:100%;
-    margin: 2rem 0 2rem 2rem;
+    padding: 0rem 0 2rem 2rem;
     bottom: 0;
 }
 
