@@ -70,6 +70,12 @@ Header
     float: right;
 }
 
+@media only screen and (max-width: 955px) {
+    .menu{
+        display: none;
+    }
+  }
+
 .menu a{
     padding:10px;
     font-family: 'Andada Pro';

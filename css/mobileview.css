@@ -1,0 +1,19 @@
+/*
+Resources
+*/
+
+.gif{
+    width: 100%;
+}
+
+/*
+Text Styles
+*/
+
+h1{
+    text-align: center;
+}
+
+#container br{
+    display: none;
+}
