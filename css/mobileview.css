@@ -3,7 +3,10 @@ Resources
 */
 
 .gif{
-    width: 100%;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
 
 /*
@@ -12,6 +15,10 @@ Text Styles
 
 h1{
     text-align: center;
+}
+
+#container h2{
+    padding: 0rem 0.5rem 0rem 0rem;
 }
 
 #container br{
